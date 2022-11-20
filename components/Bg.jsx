@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import me from '../public/me.png'
 
 const Bg = () => {
   return (
     <div className='bgWrap flex items-center justify-center'>
-    <Image src='/../public/me.jpg' 
+    <Image src={me}
     alt='me'
     width={350}
     height={350}

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
-import me from '../public/me.jpg'
 import Bg from '../components/Bg'
 
 export default function Home() {
