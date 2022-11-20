@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 
-
 var today = new Date();
 var day = today.getDate();
 var month = (today.getMonth()+1);
