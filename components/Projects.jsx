@@ -17,7 +17,7 @@ const Projects = () => {
 
       <div className="wrapper items-center gap-4">
         {data.map((item) => (
-        <div className="antialiased text-gray-900">
+        <div className="antialiased text-gray-900" key={item.id}>
           <div>
             <Image
               src={placeholder}
