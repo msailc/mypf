@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Hero from '../components/Hero'
-import Bg from '../components/Bg'
-import Projects from '../components/Projects'
+import Head from "next/head";
+import Image from "next/image";
+import Hero from "../components/Hero";
+import Bg from "../components/Bg";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -15,5 +15,5 @@ export default function Home() {
       <Hero></Hero>
       <Projects></Projects>
     </div>
-  )
+  );
 }
