@@ -20,18 +20,4 @@ export default [
     cijena: 300,
     icon: 3,
   },
-  {
-    id: 4,
-    first_name: "Non-alcoholic",
-    last_name: "Bezalkoholno",
-    cijena: 300,
-    icon: 4,
-  },
-  {
-    id: 5,
-    first_name: "Food",
-    last_name: "Hrana",
-    cijena: 300,
-    icon: 5,
-  },
 ];

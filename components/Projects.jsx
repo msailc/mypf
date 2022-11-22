@@ -7,15 +7,17 @@ const Projects = () => {
   const [data, setData] = useState(Data);
 
   return (
-    <div className="oswald">
+    <div className="oswald h-[140vh]">
+      <div className="">
       <div className="flex items-center justify-center">
-        <h1 className="font-size-1 text-white">Projects</h1>
+        <h1 className="font-size-1 text-white py-5">Projects</h1>
       </div>
-      <div className="flex items-center justify-center py-10 text-[#8f39ff]">
+      <div className="flex items-center justify-center mb-10 text-[#8f39ff]">
         <p>Here you can find list of projects I did</p>
       </div>
+      </div>
 
-      <div className="wrapper items-center gap-4">
+      <div className="wrapper items-center gap-12">
         {data.map((item) => (
         <div className="antialiased text-gray-900" key={item.id}>
           <div>
@@ -42,7 +44,7 @@ const Projects = () => {
 
                 <div className="mt-1">
                   {item.cijena}
-                  <span class="text-gray-600 text-sm"> /wk</span>
+                  <span className="text-gray-600 text-sm"> /wk</span>
                 </div>
                 <div className="mt-4 justify-center gap-16 flex">
                   <span className="bg-purple-400 text-purple-700 text-xl px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">

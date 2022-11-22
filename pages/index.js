@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from "../components/Hero";
 import Bg from "../components/Bg";
 import Projects from "../components/Projects";
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero></Hero>
-      <Projects></Projects>
+      <About></About>
     </div>
   );
 }
